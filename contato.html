@@ -7,34 +7,34 @@
     <meta name="description" content="Projeto Portfólio">
     <meta name="author" content="Generation Brasil">
     <meta name="keywords" content="HTML, CSS, JavaScript">
+    <link rel="stylesheet" href="./assets/css/style.css">
     <title>Meu Perfil</title>
 </head>
 
 <body>
-    <header>
-        <div id="header_content">
-            <div id="titulo">
-                <h1>Generation Brasil</h1>
-            </div>
-
-            <div id="menu">
-                <nav>
-                    <ul id="menu">
-                        <li>
-                            <a href="index.html"> Home </a>
-                        </li>
-                        <li>
-                            <a href="contato.html"> Contato </a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-        </div>
-    </header>
+		<header>
+			<div id="header_content" class="flex">
+				<div id="titulo">
+					<h1>Generation Brasil</h1>
+				</div>
+				<div id="menu">
+					<nav>
+						<ul id="menu">
+							<li>
+								<a href="index.html">Home</a>
+							</li>
+							<li>
+								<a href="contato.html">Contato</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</header>
 
     <main>
 
-        <section id="contact">
+        <section id="contact" class="flex">
 
             <form action="#" method="submit" id="formulario">
                 <label for="name">Nome</label>
@@ -55,7 +55,7 @@
                 <button type="submit">Enviar</button>
             </form>
 
-            <article id="mapa">
+            <article id="mapa" class="flex_start">
                 <p>Vibra São Paulo</p>
                 <p>São Paulo - SP</p>
             
@@ -73,27 +73,21 @@
 
     </main>
 
-    <footer>
+		<footer class="flex">
+			<section id="redes_sociais">
+				<a href="">
+					<img src="assets/img/linkedin.svg" alt="LinkedIn" class="social_icon"/>
+				</a>
+				<a href="">
+					<img src="assets/img/github.svg" alt="Github" class="social_icon"/>
+				</a>
+				<a href="">
+					<img src="assets/img/instagram.svg" alt="Instagram" class="social_icon"/>
+				</a>
+			</section>
+			<h3>Feito com 🧡 por Generation Brasil - 2024</h3>
+		</footer>
 
-        <section id="redes_sociais">
-
-            <a href="">
-                <img src="assets/img/linkedin.svg" alt="LinkedIn" />
-            </a>
-            <a href="">
-                <img src="assets/img/github.svg" alt="Github" />
-            </a>
-            <a href="">
-                <img src="assets/img/instagram.svg" alt="Instagram" />
-            </a>
-
-        </section>
-
-        <h3>
-            Feito com 🧡 por Generation Brasil - 2024
-        </h3>
-
-    </footer>
 </body>
 
 </html>
